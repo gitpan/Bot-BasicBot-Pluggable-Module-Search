@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name: Bot-BasicBot-Pluggable-Module-Search
-version: 0.9
+version: 0.95
 author: Simon Wistow <simon@thegestalt.org>
 abstract: |-
   various search plugins for Bot::BasicBot::Pluggable
