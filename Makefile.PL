@@ -3,7 +3,7 @@ use ExtUtils::MakeMaker;
 WriteMakefile
 (
           'NAME' => 'Bot::BasicBot::Pluggable::Module::Search',
-          'VERSION' => '0.96',
+          'VERSION' => '1.0',
           'PREREQ_PM' => {
                            'Bot::BasicBot::Pluggable' => '0.5',
                            'HTML::Entities' => '0',

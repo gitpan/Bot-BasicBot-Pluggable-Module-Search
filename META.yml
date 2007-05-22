@@ -1,9 +1,9 @@
---- #YAML:1.0
+---
 name: Bot-BasicBot-Pluggable-Module-Search
-version: 0.96
-author: Simon Wistow <simon@thegestalt.org>
-abstract: |-
-  various search plugins for Bot::BasicBot::Pluggable
+version: 1.0
+author:
+  - Simon Wistow <simon@thegestalt.org>
+abstract: ~
 license: perl
 requires:
   Bot::BasicBot::Pluggable: 0.5
@@ -22,7 +22,7 @@ provides:
   Bot::BasicBot::Pluggable::Module::IMDB:
     file: lib/Bot/BasicBot/Pluggable/Module/IMDB.pm
   Bot::BasicBot::Pluggable::Module::Search:
-    file: lib/Bot/BasicBot/Pluggable/Module/Search.pm
+    file: lib/Bot/BasicBot/Pluggable/Module/WebSearch.pm
   Bot::BasicBot::Pluggable::Module::Websters:
     file: lib/Bot/BasicBot/Pluggable/Module/Websters.pm
-generated_by: Module::Build version 0.25
+generated_by: Module::Build version 0.2611
